@@ -10,9 +10,9 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
 from dotenv import load_dotenv
-load_dotenv()  # take environment variables from .env (especially openai api key)
+load_dotenv()  # take environment variables from .env 
 
-st.title("RockyBot: News Research Tool 📈")
+st.title("LLM-Tool-for-Equity-Research-and-Analysis: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
 
 urls = []
